@@ -1,9 +1,15 @@
 import React from 'react'
 
-export const Display = () => {
+export const Display = (props) => {
+
     return(
         <div>
-            荒木電卓ぅ～
+            <div>
+                荒木電卓ぅ～
+            </div>
+            <div>
+                { props.input }
+            </div>
         </div>
     )
 }

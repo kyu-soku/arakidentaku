@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Plus = () => {
+export const Plus = (props) => {
+
     return(
         <button>+</button>
+        
     )
 }

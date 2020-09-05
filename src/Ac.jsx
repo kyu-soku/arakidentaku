@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const Ac = () => {
+export const Ac = (props) => {
+    const onClickFunc2 = () => {
+        props.arakida(0)
+    }
     return(
-        <button style={{backgroundColor:"red"}}>AC</button>
+        <button onClick={onClickFunc2} style={{backgroundColor:"red"}}>AC</button>
     )
 }
