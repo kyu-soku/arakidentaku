@@ -9,6 +9,8 @@ export const Eq = (props) => {
             props.setResult(props.result-props.input)
         }else if(props.operator==='×'){
             props.setResult(props.result*props.input)
+        }else if(props.operator==="/" && props.input!==0){
+            props.setResult(props.result/props.input)
         }
     }
 

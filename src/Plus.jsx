@@ -9,6 +9,5 @@ export const Plus = (props) => {
 
     return(
         <button onClick={onClickFunc2}>+</button>
-        
     )
 }
