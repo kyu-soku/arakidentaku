@@ -10,6 +10,10 @@ export const Display = (props) => {
             <div>
                 { props.input }
             </div>
+            <div>
+                Result:
+                {props.result}
+            </div>
         </div>
     )
 }

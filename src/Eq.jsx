@@ -1,7 +1,14 @@
 import React from 'react'
 
-export const Eq = () => {
+export const Eq = (props) => {
+    const onClickFunc3 = () => {
+        if(props.operator==="+"){
+            props.setResult(props.result+props.input)
+
+        }
+    }
+
     return(
-        <button>=</button>
+        <button onClick={onClickFunc3}>=</button>
     )
 }
