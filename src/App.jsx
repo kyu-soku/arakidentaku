@@ -6,6 +6,7 @@ import {Eq} from './Eq'
 import {Display} from './Display'
 import {C} from './C'
 import {Subtraction} from './Subtraction'
+import {Multiplication} from './multiplication'
 
 const App =() => {
     const [input, setInput] = useState(0)
@@ -25,6 +26,7 @@ const App =() => {
                 <Num num={4} input={input} setInput={setInput} result={result} setOperator={setOperator}/>
                 <Num num={5} input={input} setInput={setInput} result={result} setOperator={setOperator}/>
                 <Num num={6} input={input} setInput={setInput} result={result} setOperator={setOperator}/>
+                <Multiplication setResult={setResult} result={result} input={input} setInput={setInput} setOperator={setOperator} />
             </div>
             <div>
                 <Num num={7} input={input} setInput={setInput} result={result} setOperator={setOperator}/>

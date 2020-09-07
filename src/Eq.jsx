@@ -7,6 +7,8 @@ export const Eq = (props) => {
 
         }else if(props.operator==="-"){
             props.setResult(props.result-props.input)
+        }else if(props.operator==='×'){
+            props.setResult(props.result*props.input)
         }
     }
 
