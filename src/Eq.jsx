@@ -5,6 +5,8 @@ export const Eq = (props) => {
         if(props.operator==="+"){
             props.setResult(props.result+props.input)
 
+        }else if(props.operator==="-"){
+            props.setResult(props.result-props.input)
         }
     }
 
